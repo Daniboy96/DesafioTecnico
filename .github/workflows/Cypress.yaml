@@ -24,8 +24,9 @@ jobs:
       - name: Run Cypress tests
         run: npm run cypress:run
 
-      - name: Step 4 Archive production artifacts
+      - name: Upload report artifact
         uses: actions/upload-artifact@v2
         with:
-            name: report
-            path: ./results/Report.html
+          name: report
+          path: ./path/to/Report.html
+          if-no-files-found: warn
