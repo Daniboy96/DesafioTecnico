@@ -3,7 +3,7 @@ name: Cypress
 on:
   push:
     branches:
-      - master  # Defina a branch desejada aqui
+      - master
 
 jobs:
   build:
@@ -23,3 +23,6 @@ jobs:
 
       - name: Run Cypress tests
         run: npm run cypress:run
+
+      - name: Download Cypress test results
+        run:  curl -O https://seuservidor.com/resultados/cypress-results.html
