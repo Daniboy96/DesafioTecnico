@@ -1,0 +1,20 @@
+name: zitrus
+
+on:
+  push:
+    branches: [main] 
+  workflow_dispatch: 
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Run Cypress Tests
+        run: npm run cypress:run # Substitua pelo comando específico para rodar seus testes
