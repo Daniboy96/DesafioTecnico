@@ -7,10 +7,9 @@ Repositório de automação em Cypress para teste do desafio técnico.
 ## Tecnologias utilizadas
 
 JavaScript
-```
 
 Cypress
-```
+
 
 ## Como instalar
 
