@@ -12,8 +12,6 @@ module.exports = {
         btnIntegracoes:'#jet-toggle-control-2547',
         btnContabilizacao:'#jet-toggle-control-2548',
         btnPrestadora:'#jet-toggle-control-2549'
-
-
     }
 
 }
