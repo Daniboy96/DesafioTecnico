@@ -25,3 +25,9 @@ Cypress.on('uncaught:exception', (err, runnable) => {
     // failing the test
     return false
   })
+
+  import gestaoPlanoSaude from '../pages/gestaoPlanoSaude'
+  import paginaInicial from '../pages/paginaInicial'
+
+  Cypress.gestaoPlanoSaude = gestaoPlanoSaude
+  Cypress.paginaInicial = paginaInicial

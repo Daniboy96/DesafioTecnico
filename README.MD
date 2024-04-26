@@ -1,8 +1,16 @@
 # Automação Site Zitrus
+Autor: Daniel Vasconcelos
 
 ## Descrição
 Repositório de automação em Cypress para teste do desafio técnico.
 
+## Tecnologias utilizadas
+
+JavaScript
+```
+
+Cypress
+```
 
 ## Como instalar
 
@@ -18,7 +26,11 @@ npm install
 
 ## Como rodar
 
-**UI** 
+UI
 ```
 npx cypress open
+```
+Headless
+```
+npx cypress run
 ```
