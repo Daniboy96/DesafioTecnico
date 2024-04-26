@@ -1,6 +1,8 @@
 
 describe('Pagina Inicial', () => {
 
+  //Issues: https://github.com/Daniboy96/DesafioTecnico/issues/1
+
   beforeEach(() => {
 
     Cypress.paginaInicial.homePage()
