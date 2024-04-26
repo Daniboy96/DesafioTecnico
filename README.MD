@@ -23,6 +23,8 @@ Instalar
 npm install
 ```
 
+Clone este repositório em sua máquina local
+
 ## Como rodar
 
 UI
