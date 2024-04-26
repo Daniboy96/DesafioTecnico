@@ -1,9 +1,9 @@
-name: zitrus
+name: Cypress Tests
 
 on:
   push:
-    branches: [master] 
-  workflow_dispatch: 
+    branches: [main]
+  workflow_dispatch:
 
 jobs:
   cypress-run:
@@ -11,10 +11,11 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
 
       - name: Install Dependencies
         run: npm install
 
-      - name: Cypress run
-        run: ncypress-io/github-action@v5
+      - name: Run Cypress Tests
+        uses: cypress-io/github-action@v2
+        with:
