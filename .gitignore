@@ -1,0 +1,9 @@
+# dependencies
+node_modules
+output
+allure-report
+allure-results
+.idea
+npm_install_debug.log
+cypress.env.json
+downloads
