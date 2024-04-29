@@ -4,6 +4,8 @@ Autor: Daniel Vasconcelos
 ## Descrição
 Repositório de automação em Cypress para teste do desafio técnico.
 
+Este repositório também está configurado para executar a automação como parte de um fluxo de integração contínua usando o GitHub Actions.
+
 ## Tecnologias utilizadas
 
 JavaScript
